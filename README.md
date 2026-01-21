@@ -1,6 +1,6 @@
-# Probability of Default (PD) Modeling — Synthetic Credit Risk Dataset
+# Probability of Default (PD) Modeling
 
-This project builds an end-to-end baseline for **Probability of Default (PD)** prediction using a **fully synthetic** credit risk dataset.  
+This project builds an end-to-end baseline for Probability of Default (PD) prediction using a synthetic credit risk dataset.  
 The goal is to compare multiple modeling approaches and select the best-performing model based on robust evaluation metrics.
 
 ## What’s inside
@@ -9,14 +9,3 @@ The goal is to compare multiple modeling approaches and select the best-performi
 - Training and evaluation of multiple models (e.g., linear / tree-based / boosting-style approaches)
 - Model comparison using classification metrics and validation strategy
 - Final model selection and short conclusions
-
-## Data
-The dataset used here is **synthetic** and provided in Parquet format:
-- `data/pd_train.parquet`
-- `data/pd_test.parquet`
-
-## How to run
-1. Clone the repository.
-2. Install dependencies (at minimum: `pandas`, plus the libraries used by the selected models).
-3. Run the main script / notebook:
-   - `probability_of_default.py`
